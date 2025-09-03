@@ -8,19 +8,19 @@ const contactInfo = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'your.email@example.com',
+    value: 'kadrimed95@gmail.com',
     href: 'mailto:your.email@example.com'
   },
   {
     icon: Phone,
     label: 'Phone',
-    value: '+1 (555) 123-4567',
+    value: '+ 212 6 16 27 41 23',
     href: 'tel:+15551234567'
   },
   {
     icon: MapPin,
     label: 'Location',
-    value: 'San Francisco, CA',
+    value: 'Agadir, Morocco',
     href: '#'
   }
 ];
