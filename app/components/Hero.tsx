@@ -27,7 +27,7 @@ export default function Hero() {
           >
             Hi, I&aposm{' '}
             <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              André Silva
+              Kadri Mohamed
             </span>
           </motion.h1>
           
