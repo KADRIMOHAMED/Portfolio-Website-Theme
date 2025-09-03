@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { User, Award, Target, Coffee } from 'lucide-react';
 
 const stats = [
-  { icon: Award, label: 'Projects Completed', value: '50+' },
+  { icon: Award, label: 'Projects Completed', value: '10+' },
   { icon: Coffee, label: 'Cups of Coffee', value: '1000+' },
   { icon: Target, label: 'Happy Clients', value: '25+' },
 ];
@@ -24,8 +24,8 @@ export default function About() {
             About Me
           </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            I&apos;m a passionate full-stack developer with expertise in creating scalable,
-            user-friendly applications using modern technologies.
+            I'm a passionate Data Analyst with expertise in turning raw data into meaningful insights and building
+            interactive dashboards that support decision-making.
           </p>
         </motion.div>
 
@@ -55,9 +55,8 @@ export default function About() {
                 My Journey
               </h3>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                With over 5 years of experience in web development, I&apos;ve worked on diverse
-                projects ranging from e-commerce platforms to AI-powered applications.
-                I specialize in React, Next.js, Node.js, and cloud technologies.
+                With several years of experience in data analysis and business intelligence, I’ve worked on projects ranging from sales performance dashboards to financial and operational reporting.
+                I specialize in Power BI, Excel, SQL, and SAP Business One, with strong skills in data modeling, visualization, and reporting automation.
               </p>
             </div>
 
@@ -66,9 +65,8 @@ export default function About() {
                 My Approach
               </h3>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                I believe in writing clean, maintainable code and creating user experiences
-                that are both beautiful and functional. I&apos;m constantly learning and
-                adapting to new technologies to stay at the forefront of web development.
+               I believe in creating clear, actionable reports that combine accuracy with visual impact. My goal is to help businesses understand their data and make smarter decisions.
+               I’m constantly improving my skills in data visualization, analytics, and process optimization, staying up to date with modern BI tools and practices.
               </p>
             </div>
 
