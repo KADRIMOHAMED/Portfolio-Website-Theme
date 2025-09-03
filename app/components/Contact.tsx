@@ -15,7 +15,7 @@ const contactInfo = [
     icon: Phone,
     label: 'Phone',
     value: '+ 212 6 16 27 41 23',
-    href: 'tel:+15551234567'
+    href: 'tel:+212616274123'
   },
   {
     icon: MapPin,
@@ -82,7 +82,7 @@ export default function Contact() {
             </h3>
             <p className="text-gray-600 dark:text-gray-300 mb-8">
               Whether you have a project in mind, want to collaborate, or just want to say hello,
-              I&aposd love to hear from you. Feel free to reach out!
+              Feel free to reach out!
             </p>
             
             <div className="space-y-6">
