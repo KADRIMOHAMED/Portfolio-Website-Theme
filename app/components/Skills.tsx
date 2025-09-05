@@ -1,44 +1,44 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Code, Database, Cloud, Smartphone, Palette, GitBranch } from 'lucide-react';
+import { BarChart, Database, Briefcase, Code, Users, Tool } from 'lucide-react';
 
 const skills = [
   {
-    category: 'Frontend',
-    icon: Code,
+    category: 'Data Visualization',
+    icon: BarChart,
     color: 'from-blue-500 to-cyan-500',
-    technologies: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion']
+    technologies: ['Power BI', 'Excel', 'Tableau']
   },
   {
-    category: 'Backend',
+    category: 'Databases',
     icon: Database,
     color: 'from-green-500 to-emerald-500',
-    technologies: ['Node.js', 'Express', 'Python', 'PostgreSQL', 'MongoDB']
+    technologies: ['SQL Server', 'PostgreSQL', 'MySQL']
   },
   {
-    category: 'DevOps',
-    icon: Cloud,
+    category: 'Business Tools',
+    icon: Briefcase,
     color: 'from-purple-500 to-pink-500',
-    technologies: ['AWS', 'Docker', 'Kubernetes', 'CI/CD', 'Vercel']
+    technologies: ['SAP Business One', 'ERP Systems', 'CRM']
   },
   {
-    category: 'Mobile',
-    icon: Smartphone,
+    category: 'Programming',
+    icon: Code,
     color: 'from-orange-500 to-red-500',
-    technologies: ['React Native', 'Flutter', 'iOS', 'Android']
+    technologies: ['Python', 'DAX', 'M Language']
   },
   {
-    category: 'Design',
-    icon: Palette,
+    category: 'Soft Skills',
+    icon: Users,
     color: 'from-pink-500 to-rose-500',
-    technologies: ['Figma', 'Adobe XD', 'UI/UX', 'Responsive Design']
+    technologies: ['Data Storytelling', 'Problem Solving', 'Collaboration']
   },
   {
-    category: 'Tools',
-    icon: GitBranch,
+    category: 'Other Tools',
+    icon: Tool,
     color: 'from-indigo-500 to-purple-500',
-    technologies: ['Git', 'GitHub', 'VS Code', 'Postman', 'Jira']
+    technologies: ['GitHub', 'VS Code', 'Jira']
   }
 ];
 
@@ -57,7 +57,7 @@ export default function Skills() {
             Technical Skills
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            I work with a variety of modern technologies and tools to build high-quality applications
+            I leverage modern tools and technologies to analyze data, build dashboards, and deliver business insights.
           </p>
         </motion.div>
 
