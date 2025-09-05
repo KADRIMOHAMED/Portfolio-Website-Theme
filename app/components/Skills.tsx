@@ -1,24 +1,24 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Code, Database, Cloud, Smartphone, Palette, GitBranch } from 'lucide-react';
+import { FileSpreadsheet, BarChart3, Building , Smartphone, Palette, GitBranch } from 'lucide-react';
 
 const skills = [
   {
     category: 'Analytics',
-    icon: Code,
+    icon: FileSpreadsheet,
     color: 'from-blue-500 to-cyan-500',
     technologies: ['Excel', 'Tableau', 'Power Query', 'Power Pivot', 'Pivot Table']
   },
   {
     category: 'Power BI',
-    icon: Database,
+    icon: BarChart3,
     color: 'from-green-500 to-emerald-500',
     technologies: ['Power BI', 'DAX', 'Dashbaord', 'Modeling']
   },
   {
     category: 'ERP',
-    icon: Cloud,
+    icon: Building,
     color: 'from-purple-500 to-pink-500',
     technologies: ['ERP', 'SAGE X3', 'SAP B1']
   }
