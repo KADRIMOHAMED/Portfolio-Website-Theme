@@ -37,8 +37,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto"
           >
-            Full-stack developer passionate about building exceptional digital experiences
-            with modern technologies and clean, efficient code.
+            Data Analyst, Power BI, Excel, SQL, SAP B1, Reporting, Business Intelligence, KPIs.
           </motion.p>
           
           <motion.div
