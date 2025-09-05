@@ -5,9 +5,9 @@ import { Github, Linkedin, Twitter, Mail } from 'lucide-react';
 import Link from 'next/link';
 
 const socialLinks = [
-  { name: 'GitHub', icon: Github, url: 'https://github.com/username' },
-  { name: 'LinkedIn', icon: Linkedin, url: 'https://linkedin.com/in/username' },
-  { name: 'Twitter', icon: Twitter, url: 'https://twitter.com/username' },
+  { name: 'GitHub', icon: Github, url: 'https://github.com/KADRIMOHAMED' },
+  { name: 'LinkedIn', icon: Linkedin, url: 'https://www.linkedin.com/in/kadrimohamed/' },
+  { name: 'Twitter', icon: Twitter, url: 'https://x.com/Kadri__med' },
   { name: 'Email', icon: Mail, url: 'mailto:your.email@example.com' },
 ];
 
@@ -24,7 +24,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Your Name</h3>
             <p className="text-gray-400">
-              Full-stack developer passionate about creating amazing web experiences.
+              Data Analyst, Power BI, Excel, SQL, SAP B1, Reporting, Business Intelligence, KPIs.
             </p>
           </div>
           
@@ -74,7 +74,7 @@ export default function Footer() {
         
         <div className="mt-8 pt-8 border-t border-gray-800 text-center">
           <p className="text-gray-400">
-            © {new Date().getFullYear()} Your Name. All rights reserved.
+            © {new Date().getFullYear()} Kadri Mohamed. All rights reserved.
           </p>
         </div>
       </div>
