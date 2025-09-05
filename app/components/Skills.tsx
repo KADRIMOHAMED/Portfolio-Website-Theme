@@ -5,40 +5,22 @@ import { Code, Database, Cloud, Smartphone, Palette, GitBranch } from 'lucide-re
 
 const skills = [
   {
-    category: 'Frontend',
+    category: 'Analytics',
     icon: Code,
     color: 'from-blue-500 to-cyan-500',
-    technologies: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion']
+    technologies: ['Excel', 'Tableau', 'Power Query', 'Power Pivot', 'Pivot Table']
   },
   {
-    category: 'Backend',
+    category: 'Power BI',
     icon: Database,
     color: 'from-green-500 to-emerald-500',
-    technologies: ['Node.js', 'Express', 'Python', 'PostgreSQL', 'MongoDB']
+    technologies: ['Power BI', 'DAX', 'Dashbaord', 'Modeling']
   },
   {
-    category: 'DevOps',
+    category: 'ERP',
     icon: Cloud,
     color: 'from-purple-500 to-pink-500',
-    technologies: ['AWS', 'Docker', 'Kubernetes', 'CI/CD', 'Vercel']
-  },
-  {
-    category: 'Mobile',
-    icon: Smartphone,
-    color: 'from-orange-500 to-red-500',
-    technologies: ['React Native', 'Flutter', 'iOS', 'Android']
-  },
-  {
-    category: 'Design',
-    icon: Palette,
-    color: 'from-pink-500 to-rose-500',
-    technologies: ['Figma', 'Adobe XD', 'UI/UX', 'Responsive Design']
-  },
-  {
-    category: 'Tools',
-    icon: GitBranch,
-    color: 'from-indigo-500 to-purple-500',
-    technologies: ['Git', 'GitHub', 'VS Code', 'Postman', 'Jira']
+    technologies: ['ERP', 'SAGE X3', 'SAP B1']
   }
 ];
 
@@ -57,7 +39,7 @@ export default function Skills() {
             Technical Skills
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            I work with a variety of modern technologies and tools to build high-quality applications
+            Specialist in Power BI, Excel, SAP B1 and business intelligence.
           </p>
         </motion.div>
 
