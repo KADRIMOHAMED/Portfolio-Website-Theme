@@ -36,11 +36,13 @@ export default function About() {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <div className="relative">
-              <div className="aspect-square bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center">
-                <User className="w-32 h-32 text-white" />
-              </div>
-            </div>
+              <div className="relative">
+                      <img 
+                         src="/dashboard.png" 
+                         alt="Kadri Mohamed" 
+                         className="w-32 h-32 rounded-full object-cover mx-auto" 
+                      />
+           </div>
           </motion.div>
 
           <motion.div
