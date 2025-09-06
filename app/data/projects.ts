@@ -13,7 +13,7 @@ export const projects: Project[] = [
     id: 1,
     title: "Urbanization & Demographics",
     description: "The challenge focused on analyzing urbanization trends in South America using Power BI Visualization and ZoomCharts' Drill Down Visuals.",
-    image: "/fastweb.jpg",
+    image: "/dashboard.jpg",
     tags: ["Power BI", "DAX" , "Excel"],
     githubUrl: "https://github.com/KADRIMOHAMED",
     liveUrl: "https://www.linkedin.com/posts/kadrimohamed_datadna-builtwithzoomcharts-powerbi-activity-7295498273723740160-6oxQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAACSPxgMB05bNKOWLiQnbX9Xy3LNbAQFMfe8",
