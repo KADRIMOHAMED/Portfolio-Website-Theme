@@ -11,12 +11,12 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 1,
-    title: "FastWeb",
-    description: "AI-powered websites delivered in 72 hours — fast, mobile-ready, and built to convert.",
+    title: "Urbanization & Demographics",
+    description: "The challenge focused on analyzing urbanization trends in South America using Power BI Visualization and ZoomCharts' Drill Down Visuals.",
     image: "/fastweb.jpg",
-    tags: ["Next.js", "TypeScript"],
-    githubUrl: "https://github.com/andreatsilva/FastWeb-CompanyWebsite",
-    liveUrl: "https://fastweb-phi.vercel.app/",
+    tags: ["Power BI", "DAX" , "Excel"],
+    githubUrl: "https://github.com/KADRIMOHAMED",
+    liveUrl: "https://www.linkedin.com/posts/kadrimohamed_datadna-builtwithzoomcharts-powerbi-activity-7295498273723740160-6oxQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAACSPxgMB05bNKOWLiQnbX9Xy3LNbAQFMfe8",
   },
   {
     id: 2,
